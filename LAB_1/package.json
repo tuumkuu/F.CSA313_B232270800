@@ -1,0 +1,27 @@
+{
+  "name": "csa313-lab01-playwright",
+  "version": "1.0.0",
+  "description": "F.CSA313 - Программ хангамжийн чанарын баталгаа ба тест: Лаборатори №1 UI автомат тест Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report docs",
+    "codegen": "playwright codegen https://www.saucedemo.com"
+  },
+  "keywords": [
+    "playwright",
+    "e2e-testing",
+    "saucedemo",
+    "qa",
+    "testing"
+  ],
+  "author": "Н. Төрболд (B232270800)",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.4.1"
+  }
+}
